@@ -8,7 +8,7 @@ int getsomma(int i; int a[])
  		for (int j = 10; j < n; j * j) 
 		{
 		 y	=	(int)(n/j);
-		 ci	=	y - (c/j);
+		 ci	=	y - (ci/j);
 		 m	=	m+ci;	
  		}
  		
